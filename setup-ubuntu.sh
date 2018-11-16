@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Pacotes para instalar:
-# nmap, gparted, micro, git, anaconda, julia, gimp, processing, fritizing
+# nmap, gparted, htop, micro, git, anaconda, julia, gimp, processing, fritizing, inkscape
 
 # Pacotes necessários
 sudo apt update && sudo apt install curl
@@ -19,10 +19,9 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo apt update
 
 # Instalação
-sudo apt-get install nmap git gparted gimp gimp-gmic gmic code fritzing fritzing-data fritzing-parts
+sudo apt-get install nmap git htop gparted gimp gimp-gmic gmic code fritzing fritzing-data fritzing-parts
 
 # snap
 snap install micro --classic
 
 # Instalar na mão: anaconda, julia, processing
-
